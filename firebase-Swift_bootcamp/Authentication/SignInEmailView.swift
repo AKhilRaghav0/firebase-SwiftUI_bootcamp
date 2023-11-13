@@ -44,7 +44,7 @@ struct SignInEmailView: View {
                     .cornerRadius(10)
             }
             
-            Spacer()
+            Spacer() 
         }
         .padding()
         .navigationTitle("Sign In with Email")

@@ -17,6 +17,7 @@
 		E9CC97BE2AFCC1AE00C6E452 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E9CC97BD2AFCC1AE00C6E452 /* FirebaseAuth */; };
 		E9CC97C12AFCC27800C6E452 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC97C02AFCC27800C6E452 /* AuthenticationView.swift */; };
 		E9CC97C32AFCC41700C6E452 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC97C22AFCC41700C6E452 /* SignInEmailView.swift */; };
+		E9CC97C52AFCD1D100C6E452 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC97C42AFCD1D100C6E452 /* AuthenticationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E9CC97B52AFCB23300C6E452 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E9CC97C02AFCC27800C6E452 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		E9CC97C22AFCC41700C6E452 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		E9CC97C42AFCD1D100C6E452 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				E9CC97C02AFCC27800C6E452 /* AuthenticationView.swift */,
 				E9CC97C22AFCC41700C6E452 /* SignInEmailView.swift */,
+				E9CC97C42AFCD1D100C6E452 /* AuthenticationManager.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				E9CC97AA2AFCA8D600C6E452 /* ContentView.swift in Sources */,
 				E9CC97A82AFCA8D600C6E452 /* firebase_Swift_bootcampApp.swift in Sources */,
 				E9CC97C12AFCC27800C6E452 /* AuthenticationView.swift in Sources */,
+				E9CC97C52AFCD1D100C6E452 /* AuthenticationManager.swift in Sources */,
 				E9CC97C32AFCC41700C6E452 /* SignInEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
